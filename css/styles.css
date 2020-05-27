@@ -1,0 +1,64 @@
+#heading {
+	position: relative;
+	color: green;
+	
+
+
+}
+.navbar-header a:hover{
+	text-decoration: none;
+}
+#nav-list {
+  margin-top: 10px;
+  list-style: none;
+}
+#nav-list a {
+  position: relative;
+  right: -250px;
+  color: red;
+  text-align: center;
+  font-size: 1.8em;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+
+#head-nav{
+	background-color: yellow;
+}
+#nav-list hr{
+	color: red;
+}
+
+.sub-heading h2{
+	text-align: center;
+}
+#chicken{
+	background-color: red;
+	
+}
+#beef{
+	background-color: blue;
+	
+}
+#shushi{
+	background-color: green;
+	
+}
+#chicken, #shushi, #beef{
+	  height: 1000px;
+  width: 95%;
+  margin-left: 2.5%;
+  margin-right: 2.5%
+  margin-bottom: 15px;
+  position: relative;
+  border: 2px solid #3F0C1F;
+  overflow: hidden;
+}
+#chicken h3, #beef h3, #shushi h3{
+	color: black;
+	text-align: center;
+}
+#chicken p, #beef p, #shushi p{
+	color: black;
+}
